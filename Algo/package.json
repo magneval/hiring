@@ -11,7 +11,8 @@
   "author": "charles",
   "contributors": [],
   "scripts": {
-    "start": "node src/main.js"
+    "start": "node src/main.js",
+    "test": "jest"
   },
   "devDependencies": {
     "jest": "^29.7.0"
