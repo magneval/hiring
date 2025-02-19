@@ -45,3 +45,12 @@ test(
       toBe("Buzz");
   }
 );
+
+test(
+  '6 display Fizz',
+  () =>
+  {
+    expect(Fizzbuzz(6)).
+      toBe("Fizz");
+  }
+);
