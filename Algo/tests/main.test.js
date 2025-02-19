@@ -18,3 +18,21 @@ test(
       toBe(2);
   }
 );
+
+test(
+  '3 display Fizz',
+  () =>
+  {
+    expect(Fizzbuzz(3)).
+      toBe("Fizz");
+  }
+);
+
+test(
+  '4 display 4',
+  () =>
+  {
+    expect(Fizzbuzz(4)).
+      toBe(4);
+  }
+);
