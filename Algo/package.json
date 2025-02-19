@@ -1,0 +1,19 @@
+{
+  "name": "Algo",
+  "version": "1.0.0",
+  "keywords": [
+    "util",
+    "functional",
+    "server",
+    "client",
+    "browser"
+  ],
+  "author": "charles",
+  "contributors": [],
+  "scripts": {
+    "start": "node src/main.js"
+  },
+  "devDependencies": {
+    "jest": "^29.7.0"
+  }
+}
