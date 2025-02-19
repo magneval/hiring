@@ -1,14 +1,23 @@
 function Fizzbuzz(value)
 {
-  if (value%3===0)
+  res =
+    "";
+  if (value % 3 === 0)
   {
-    return "Fizz"
+    res =
+      res + "Fizz"
   }
-  if (value%5 ===0)
+  if (value % 5 === 0)
   {
-    return "Buzz"
+    res =
+      res + "Buzz"
   }
-  return value;
+  if (res === "")
+  {
+    res =
+      value;
+  }
+  return res;
 }
 
 module.exports =
