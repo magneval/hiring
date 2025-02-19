@@ -9,3 +9,12 @@ test(
       toBe(1);
   }
 );
+
+test(
+  '2 display 2',
+  () =>
+  {
+    expect(Fizzbuzz(2)).
+      toBe(2);
+  }
+);
