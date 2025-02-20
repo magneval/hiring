@@ -12,7 +12,7 @@
   "contributors": [],
   "scripts": {
     "start": "node src/main.js",
-    "test": "jest"
+    "test": "jest test"
   },
   "devDependencies": {
     "jest": "^29.7.0"
